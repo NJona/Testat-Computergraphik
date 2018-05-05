@@ -5,8 +5,8 @@
 	}
 	SubShader
 	{
+		// Settings
 		Cull Off ZWrite Off ZTest Always
-
 		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType" = "Transparent" }
 		LOD 100
 
@@ -52,11 +52,9 @@
 			sampler2D _GrabTexture;
 
 			// Fragment-Shader
-
 			fixed4 frag (v2f i) : SV_Target
 			{
 				// Get the Color of the Pixel from Position
-				//half4 pixelColor = tex2D(_GrabTexture, float2(i.grabPosUV.x, i.grabPosUV.y));
 				half4 pixelColor = tex2D(_GrabTexture, i.grabPosUV);
 								
 				// Convert RGB Values to Sepia Values
@@ -74,7 +72,6 @@
 				
 				// Return Sepia Color
 				return pixelColorSepia;
-				
 			}
 			ENDCG
 		}
