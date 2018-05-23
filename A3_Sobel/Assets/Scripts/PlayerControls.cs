@@ -8,6 +8,7 @@ public class PlayerControls : MonoBehaviour {
     public float movementSpeed = 1f;
     // Rotation Speed
     public float rotationSpeed = 150f;
+    public float JumpHeight = 2.0f;
     
 
 	// Use this for initialization
@@ -22,6 +23,11 @@ public class PlayerControls : MonoBehaviour {
         MouseController();
 	}
 
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            this.transform.Translate(Vector3.up * JumpHeight);
+    }
     void MouseController()
     {
         // Get Horizontal Mouse Movement
@@ -33,6 +39,6 @@ public class PlayerControls : MonoBehaviour {
     {
         // Get Horizontal and Vertical Translation Commands from Keyboard
         // Move PlayerObject with Time
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * movementSpeed , 0f, Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed);
+        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * movementSpeed, 0f, Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed);
     }
 }

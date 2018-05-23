@@ -1463,6 +1463,7 @@ GameObject:
   - component: {fileID: 471397535}
   - component: {fileID: 471397534}
   - component: {fileID: 471397533}
+  - component: {fileID: 471397538}
   m_Layer: 0
   m_Name: PlayerObject
   m_TagString: Untagged
@@ -1481,8 +1482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bac4678ad3cffc468a57849deb42c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
+  movementSpeed: 10
   rotationSpeed: 150
+  JumpHeight: 2
 --- !u!65 &471397534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1550,6 +1552,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &471397538
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 471397532}
+  serializedVersion: 2
+  m_Mass: 70
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &475430038 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 62fa28cbb204e4546a2ad5c1580ee188, type: 3}
@@ -1931,7 +1948,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f76d5663e3855bc449771b98f3c18f68, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f76d5663e3855bc449771b98f3c18f68, type: 3}
       propertyPath: m_Name
