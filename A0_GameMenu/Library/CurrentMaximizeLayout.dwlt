@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 442}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 679, y: 442}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 764
+  controlID: 85
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,19 +167,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/A3_Sobel/Additional Assets/Olive_Tree
+    - Assets/A3_Sobel/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/A3_Sobel/Additional Assets/Olive_Tree
+  - Assets/A3_Sobel/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\carmi\Documents\GitHub\Testat-Computergraphik\A0_GameMenu
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 32290000
-    m_LastClickedID: 10546
-    m_ExpandedIDs: 00000000b4280000bc2900008a2a00006e2b00002a2c00006a2c000000320000
+    m_SelectedIDs: c22a0000
+    m_LastClickedID: 10946
+    m_ExpandedIDs: 00000000b4280000bc2900008a2a00006e2b00002a2c00006a2c00008e2c00008c2d000076320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -207,7 +207,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4280000bc2900008a2a00006e2b00002a2c00006a2c000000320000
+    m_ExpandedIDs: 00000000b4280000bc2900008a2a00006e2b00002a2c00006a2c00008e2c00008c2d000076320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -232,8 +232,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 82faffff
-    m_LastClickedInstanceID: -1406
+    m_SelectedInstanceIDs: 866affff
+    m_LastClickedInstanceID: -38266
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -291,9 +291,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2faffff
-    m_LastClickedID: -1294
-    m_ExpandedIDs: 9efbffff0000000068300000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 442}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 765
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.481729, y: -38.931713, z: 62.703156}
+    m_Target: {x: -0.43825004, y: -145.30846, z: 187.9908}
     speed: 2
-    m_Value: {x: 3.481729, y: -38.931713, z: 62.703156}
+    m_Value: {x: -0.43825004, y: -145.30846, z: 187.9908}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -425,13 +425,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.26122847, y: 0.01100562, z: -0.002978415, w: 0.96520966}
+    m_Target: {x: -0.32008392, y: 0.000003881905, z: -0.0000017352542, w: -0.9473892}
     speed: 2
-    m_Value: {x: -0.26122847, y: -0.011005619, z: 0.002978415, w: -0.96520966}
+    m_Value: {x: -0.3200839, y: 0.000003881905, z: -0.000001735254, w: -0.9473892}
   m_Size:
-    m_Target: 110.82475
+    m_Target: 275.13205
     speed: 2
-    m_Value: 110.82475
+    m_Value: 275.13205
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -513,8 +513,8 @@ MonoBehaviour:
     y: 0
     width: 349
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -548,7 +548,7 @@ MonoBehaviour:
     width: 347
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 18.955078}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
