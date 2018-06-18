@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/A3_Sobel/Scenes/Sobel_Scene.unity
     guid: c87c7c20892bc2849817a69d32d1f263
+  - enabled: 1
+    path: Assets/A4_Lense/Scenes/LenseScene.unity
+    guid: e2b16b41e48f3d9488a03e4d25faad04
   m_configObjects: {}
