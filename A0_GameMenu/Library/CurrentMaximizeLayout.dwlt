@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 221}
-  m_MaxSize: {x: 12006, y: 4021}
+  m_MinSize: {x: 683, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 49
+  controlID: 49897
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,9 +153,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68130000
-    m_LastClickedID: 4968
-    m_ExpandedIDs: f0fbffff00000000
+    m_SelectedIDs: e4630000
+    m_LastClickedID: 25572
+    m_ExpandedIDs: badaf6fffa9df9ff28c1f9ff08e2f9ffacb7fbfff62effff3631ffff5e43ffff9ee3fffff0fbffff000000005e220000fa440000324500004045000062620000ae630000d2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -171,7 +171,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 3}
     m_SearchString: 
   m_ExpandedScenes:
   - Sobel_Scene
@@ -216,20 +216,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/A3_Sobel/Scenes
+    - Assets/LowpolyStreetPack/Prefabs/StreetProps
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/A3_Sobel/Scenes
+  - Assets/LowpolyStreetPack/Prefabs/StreetProps
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\carmi\Documents\GitHub\Testat-Computergraphik\A0_GameMenu
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c80c0000
-    m_LastClickedID: 3272
-    m_ExpandedIDs: 000000007e0a0000600c0000fc0c00003c0d0000320e0000380f0000800f0000ac0f0000ea10000096120000c4360000c6360000
+    m_SelectedIDs: f8120000
+    m_LastClickedID: 4856
+    m_ExpandedIDs: 000000000c0a00003e0d0000ae0d0000e80e0000541100000e1400003617000092170000821800000e1b0000241f0000a6440000a844000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -245,7 +245,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 3}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -257,7 +257,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e0a0000600c0000fc0c00003c0d0000320e0000380f0000800f0000ac0f0000ea10000096120000c4360000c6360000
+    m_ExpandedIDs: 000000000c0a00003e0d0000ae0d0000e80e0000541100000e1400003617000092170000821800000e1b0000241f0000a6440000a844000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -282,9 +282,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d2dfffff
-    m_LastClickedInstanceID: -8238
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 803afbff
+    m_LastClickedInstanceID: -312704
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -365,14 +365,14 @@ MonoBehaviour:
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 27107.221443694732
+  lastFramingTime: 2545.397053397249
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6136526, y: 2.5336475, z: -2.2397766}
+    m_Target: {x: -3.9058325, y: -45.75244, z: 12.5891}
     speed: 2
-    m_Value: {x: 1.6136526, y: 2.5336475, z: -2.2397766}
+    m_Value: {x: -3.9058325, y: -45.75244, z: 12.5891}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -400,13 +400,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.36766568, y: -0.0047523114, z: 0.0018797673, w: 0.92994404}
+    m_Target: {x: -0.5048978, y: -0.025566442, z: 0.014963777, w: -0.86267066}
     speed: 2
-    m_Value: {x: 0.36766568, y: -0.0047523114, z: 0.0018797673, w: 0.92994404}
+    m_Value: {x: -0.5048978, y: -0.025566442, z: 0.014963777, w: -0.86267066}
   m_Size:
-    m_Target: 37.559055
+    m_Target: 135.41272
     speed: 2
-    m_Value: 37.559055
+    m_Value: 135.41272
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -499,7 +499,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}

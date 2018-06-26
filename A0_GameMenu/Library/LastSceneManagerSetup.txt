@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/A3_Sobel/Scenes/Sobel_Scene.unity
+- path: Assets/A4_Lense/Scenes/LenseScene.unity
   isLoaded: 1
   isActive: 1
