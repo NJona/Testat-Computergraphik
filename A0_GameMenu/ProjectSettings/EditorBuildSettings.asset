@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/A4_Lense/Scenes/LenseScene.unity
     guid: e2b16b41e48f3d9488a03e4d25faad04
+  - enabled: 1
+    path: Assets/A1_Deformation/Scenes/DeformationScene.unity
+    guid: 60e726f5977ba9344b0073e74e12d3d8
   m_configObjects: {}
