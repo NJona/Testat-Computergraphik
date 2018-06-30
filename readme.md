@@ -2,6 +2,13 @@
 
 Ausführbare Exe befindet sich im Ordner A0_GameMenu
 
+## Gruppenmitglieder:
+
+- Carmine Ippolito
+- Tobias Nagel
+- Janik Siller
+- Jona Neef
+
 ## Navigation im Hauptmenü:
 
 - Pfeiltasten um die Buttons auszuwählen
