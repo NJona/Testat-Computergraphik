@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 164084046}
   - component: {fileID: 164084045}
   - component: {fileID: 164084044}
+  - component: {fileID: 164084048}
   m_Layer: 0
   m_Name: DeformationIcoSphere
   m_TagString: Untagged
@@ -200,6 +201,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &164084048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164084043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d48de6dc9ed54a9ee8dc9e088f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeformationTimeToLive: 100
+  MaxNumberOfDeformations: 100
+  ForceMultiplier: 1
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +627,7 @@ GameObject:
   - component: {fileID: 549733492}
   - component: {fileID: 549733491}
   - component: {fileID: 549733490}
+  - component: {fileID: 549733494}
   m_Layer: 0
   m_Name: DeformationWeirdDice
   m_TagString: Untagged
@@ -688,6 +704,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549733494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 549733489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d48de6dc9ed54a9ee8dc9e088f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeformationTimeToLive: 100
+  MaxNumberOfDeformations: 100
+  ForceMultiplier: 1
 --- !u!1001 &656747857
 Prefab:
   m_ObjectHideFlags: 0
@@ -777,6 +807,7 @@ GameObject:
   - component: {fileID: 703171857}
   - component: {fileID: 703171856}
   - component: {fileID: 703171855}
+  - component: {fileID: 703171859}
   m_Layer: 0
   m_Name: DeformationSphere
   m_TagString: Untagged
@@ -853,6 +884,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703171859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 703171854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d48de6dc9ed54a9ee8dc9e088f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeformationTimeToLive: 100
+  MaxNumberOfDeformations: 100
+  ForceMultiplier: 1
 --- !u!1001 &780837625
 Prefab:
   m_ObjectHideFlags: 0
@@ -1286,6 +1331,7 @@ GameObject:
   - component: {fileID: 1189764835}
   - component: {fileID: 1189764834}
   - component: {fileID: 1189764833}
+  - component: {fileID: 1189764837}
   m_Layer: 0
   m_Name: DeformationMonkey
   m_TagString: Untagged
@@ -1362,6 +1408,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1189764837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1189764832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d48de6dc9ed54a9ee8dc9e088f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeformationTimeToLive: 100
+  MaxNumberOfDeformations: 100
+  ForceMultiplier: 1
 --- !u!1001 &1249344229
 Prefab:
   m_ObjectHideFlags: 0
@@ -1442,6 +1502,7 @@ GameObject:
   - component: {fileID: 1419654833}
   - component: {fileID: 1419654832}
   - component: {fileID: 1419654831}
+  - component: {fileID: 1419654835}
   m_Layer: 0
   m_Name: DeformationCube
   m_TagString: Untagged
@@ -1518,6 +1579,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1419654835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1419654830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d48de6dc9ed54a9ee8dc9e088f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeformationTimeToLive: 100
+  MaxNumberOfDeformations: 100
+  ForceMultiplier: 0.5
 --- !u!1001 &1426289169
 Prefab:
   m_ObjectHideFlags: 0
